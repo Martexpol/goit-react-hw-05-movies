@@ -1,0 +1,57 @@
+body {
+  background-color: #ebcfb2;
+  color: #424b54;
+  font-family: "Lato";
+}
+
+.navBox {
+  display: flex;
+  justify-content: baseline;
+  height: 60px;
+  width: 100%;
+}
+
+.navBtn {
+  height: 36px;
+  width: 100px;
+  margin: 7px;
+  border: none;
+  border-radius: 20px;
+  background-color: #424b54;
+  color: white;
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 18px;
+  -webkit-box-shadow: 1px 8px 59px -18px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 1px 8px 59px -18px rgba(66, 68, 90, 1);
+  box-shadow: 1px 8px 59px -18px rgba(66, 68, 90, 1);
+}
+
+.activeLink button {
+  color: #d55672;
+}
+
+.goBackBtn {
+  height: 24px;
+  width: 80px;
+  margin: 7px;
+  border: none;
+  border-radius: 20px;
+  background-color: #c5baaf;
+  color: white;
+  font-family: "Lato";
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.loaderContainer {
+  width: 100%;
+  display: flex;
+}
+.loader {
+  width: 150px;
+  margin: 0 auto;
+}
+.header {
+  margin: 10px;
+}

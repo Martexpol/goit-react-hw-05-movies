@@ -1,0 +1,22 @@
+.castList {
+  list-style: none;
+}
+
+.castMember {
+  display: flex;
+  border: 1px #c5baaf solid;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.castMemberDetails {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.memberName {
+  font-weight: 700;
+  line-height: 1.5rem;
+}
